@@ -1,1 +1,198 @@
-Hello I am Wing
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Wing Luk</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="public/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-4" href="#">Wing Luk</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobbies">Interest</a></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="intro">
+  <img class="icon" src="public/img/circle-cropped.png" alt="WingLuk">
+    <h1 class="title big-heading">Hi, <br />my name is Wing Luk</h1>
+
+    <p>
+      I am an electronic engineer working on digital design,<br />
+      making circuit board and programming. <br />
+      I graduated from HKUST with a Bachelor degree in electronic engineering. <br />
+      I like to build things. Currently I am learning web developent.<br />
+      My dream is make wonderful products and make a better world!<br />
+    </p>
+
+
+    <button onclick="location.href='./public/resume/WingLukResume_web.pdf'" type="button" class="btn submit">view my resume</button>
+
+
+  </section>
+
+
+
+
+  <section id="experience">
+
+    <h2 class="section-heading">Experience</h2>
+    <!-- make timeline -->
+
+    <nav class="experience-nav">
+
+
+      <button type="button" class="btn experience-button submit" id="ASM-button">
+        <h4>ASM</h4>
+        <p>electronic engineer</p>
+      </button>
+
+
+      <button type="button" class="btn experience-button submit" id="project-assistant-button">
+        <h4>HKUST </h4>
+        <p>project assistant</p>
+      </button>
+      <button type="button" class="btn experience-button submit" id="mtr-button">
+        <h4>MTR </h4>
+        <p>Intern</p>
+      </button>
+      <button type="button" class="btn experience-button submit" id="robotics-button">
+        <h4>HKUST </h4>
+        <p>robotics team</p>
+      </button>
+
+    </nav>
+
+
+
+
+
+
+
+
+
+    <hr>
+    <div class="experience-description">
+
+      <h4>ASM Technology Hong Kong Limited<br /> Electronic engineer</h4>
+      <p>Responsible for product design and development <br />
+        ● Design circuit (ADC convertor, DC/DC convertor etc.) <br />
+        ● Guide and review PCB layout designs<br />
+        ● Develop firmware for FPGA and MCU<br />
+        ● Create function test (FCT)/burn-in test program using C<br />
+        ● Create design, production, and testing documents<br />
+        ● Support users and manufacturing process<br />
+        ● Collaborate with test lab to conduct reliability test (EMC, HALT, etc)<br />
+        ● Troubleshoot using lab equipment <br />
+      </p>
+    </div>
+
+
+
+    <!-- <div class="experience-description" id="HKUST-project">
+        <h4>HKUST, Student Affairs Office<br/> Project assistant    Sept- Dec 2017</h4>
+        <p>
+          ●	Data entry for health & fitness Assessments and course survey <br />
+          ●	Managed inventory and stock of sports equipment, team uniforms, and souvenir etc.<br />
+          ●	Conducted health & fitness assessments<br />
+          ●	Managed students’ registration, assessment schedule and attendance access<br />
+
+        </p>
+      </div>
+
+      <div class="experience-description" id="MTR">
+        <h4>MTR <br/> Intern    Jun- Aug 2017 </h4>
+        <p>Responsible for product design and development <br />
+          ●	Assisted in factory acceptance tests<br />
+          ●	Performed electromagnetic compatibility tests<br />
+          ●	Visited construction site with senior engineer<br />
+          ●	Took minutes and followed up on projects<br />
+        </p>
+      </div>
+
+
+
+      <div class="experience-description" id="HKUST-robotics">
+        <h4>HKUST Robotics Team<br/> Electronic engineer   2015- 2016</h4>
+        <p>Participated in The NXP Cup National University Students Intelligent Car Race 2016<br />
+          ● Build, program and race a model car <br />
+          ● Drew PCB layout using Altium and solder PCB board <br />
+          ● Constructed mounting using Solidworks and 3D print<br />
+          ● Programmed on K60 32-bit microcontroller with C++ <br />
+        </p>
+      </div> -->
+
+
+
+
+
+  </section>
+
+  <section id="hobbies">
+    <div class="container-fluid">
+      <h2 class="section-heading">Interest and Achievement</h2>
+
+      <div class="row">
+        <div class="col">
+
+          <h3>Football</h3>
+          <p> WSE in Jockey Club Women's Football League(Division 2) 2019-2022 <br/> HKUST women football team 2015-2019</p>
+        </div>
+        <div class="col">
+          <img src="public/img/HKUSF2019.jpg" alt="football_team">
+        </div>
+
+      </div>
+<div class="row">
+  <div class="col">
+  <img src="public/img/piano.jpg" alt="Piano">
+  </div>
+<div class="col">
+  <h3>Music</h3>
+  <p>Licentiate of Trinity College London LTCL Piano Recital <br /> Music Performance Piano DipABRSM(Diploma of the Associated Board of the Royal Schools of Music) <br> Music Theory Grade 8 </p>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container-fluid">
+      <h2 class="section-heading">Projects</h2>
+      <p>Coming Soon...
+      <p>
+    </div>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+body{
+  background-color: #041C32;
+  color: #dfecf5;
+}
+#intro{
+
+  padding: 10% 10% 20% 15%;
+}
+
+#experience{
+
+  padding: 5% 2% 10% 10%;
+
+}
+
+#hobbies{
+
+  padding: 5% 2% 10% 5%;
+}
+
+#projects{
+
+  padding: 5% 2% 10% 2%;
+}
+
+
+
+.submit{
+  margin-top: 2%;
+  background-color: #064663;
+  color:#dfecf5;
+}
+
+.title{
+  margin-bottom: 2%;
+
+}
+
+
+.section-heading{
+  font-size: 2em;
+}
+
+
+.big-heading{
+  font-size: 3em;
+}
+
+
+.experience-title{
+  text-align: left;
+  line-height: 0.1;
+
+}
+.experience-button{
+  margin-top: 1%;
+  background-color: #041C32;
+  color:#dfecf5;
+  text-align: left;
+  line-height: 0.1;
+  border-color: #dfecf5;
+  height: 60px;
+  width: 162px;
+
+
+}
+
+h4.experience-button{
+  font-size: 0.5em;
+
+}
+
+p.experience-button{
+  font-size: 0.5em;
+
+}
+
+
+.experience-button:hover{
+  color:#ECB365;
+  margin-bottom: 1%;
+  border-color: #ECB365;
+}
+
+
+
+.experience-description{
+  border-color:#dfecf5;
+
+  padding-top: 20px;
+
+  height: 100%;
+
+}
+
+#experience::after{
+  content: "";
+display: table;
+  clear: both;
+}
+
+
+@media (max-width: 1000px) {
+  .experience-nav, .experience-description {
+    width: 100%;
+    height: 100%;
+
+  }
+  /* .experience-nav{
+    float: none;
+    text-align:center;
+  } */
+
+}
+
+
+
+hr:after {
+    content:'';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #dfecf5 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+
+}
+
+
+
+.col {
+  padding: 5%;
+
+  margin-bottom: 2%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.icon {
+  width: 40%;
+  height: auto;
+  float: right;
+}
+
+/*
+#041C32
+#04293A
+#064663
+#ECB365 */
